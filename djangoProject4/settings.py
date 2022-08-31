@@ -63,6 +63,10 @@ CORS_ALLOWED_ORIGINS = [
 
 ROOT_URLCONF = 'djangoProject4.urls'
 
+
+STATIC_URL = 'static/'
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
